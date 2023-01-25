@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" exact element={<Feed/>}></Route>
-        <Route path="/vid/:id" exact element={<VideoDetail/>}></Route>
+        <Route path="/video/:id" exact element={<VideoDetail/>}></Route>
         <Route path="/channel/:id" exact element={<ChannelDetail/>}></Route>
         <Route path="/search/:sid" exact element={<SearchFeed/>}></Route>
       </Routes>

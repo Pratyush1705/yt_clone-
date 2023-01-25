@@ -5,7 +5,7 @@ import { Box } from '@mui/material'
 import Videos from './Videos'
 import ChannelCard from './ChannelCard'
 import { fetchFrmApi } from '../utils/fetchFrmApi'
-//1:47:58
+
 
 const ChannelDetail = () => {
   const { id } = useParams();
